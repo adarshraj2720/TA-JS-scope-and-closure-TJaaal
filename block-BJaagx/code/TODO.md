@@ -27,6 +27,17 @@ let numbersMultipliedBy5 = multiplyArrayByN(marks, multiplyBy5);
 ```js
 function operation(n, opFn) {
   // your code goes her
+function divide (n){
+ return n/10;
+}
+function multiply(n){
+  return (n*n)/5
+}
+
+if(opFn(n)){
+  return divide(n)
+}
+
 }
 // TEST
 console.log(
